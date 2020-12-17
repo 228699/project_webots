@@ -1,0 +1,42 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.9918423358803463 0.12641056976310963 0.016405749223501166 5.8149721073275815
+  position 0.2294997744229639 1.4015793261921081 3.1209134081718735
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 11 11
+}
+Can {
+  translation -0.48 0.07 -0.05
+}
+Can {
+  translation -0.48 0.07 -0.17
+  name "can(3)"
+}
+Can {
+  translation -0.47 0.07 -0.31
+  name "can(4)"
+}
+Can {
+  translation -0.48 0.07 0.1
+  name "can(1)"
+}
+Can {
+  translation -0.48 0.07 0.23
+  name "can(2)"
+}
+Can {
+  translation -0.26 0.07 0.36
+  name "can(5)"
+}
+IprHd6m180 {
+  translation -0.01 -0.01 0
+  controller "my_controller"
+}
