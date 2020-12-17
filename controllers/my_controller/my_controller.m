@@ -562,6 +562,9 @@ wb_motor_set_velocity(left_gripper,0);
 wb_motor_set_velocity(upperarm,-1);
 wb_robot_step(500);
 wb_motor_set_velocity(upperarm,0);
+wb_motor_set_velocity(base,-1);
+wb_robot_step(3000);
+wb_motor_set_velocity(base,0);
 break;
 end
 
